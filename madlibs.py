@@ -1,5 +1,6 @@
 #Load story as a string, parse through the string and grab each of the blank words. Story in read mode using "with" syntax so I can perform file operations on the f variable in the indented text block, and Python will clean it up after the block is closed. To prevent repeated words, use a set instead of a list.
-with open("story.txt", "r") as f:
+
+with open("/Users/renchen/dev/madlibs/story.txt", "r") as f:
     story = f.read()
 
 words = set()
